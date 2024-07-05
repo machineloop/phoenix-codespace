@@ -33,7 +33,7 @@ Start your Phoenix app with:​
 
 Run your app inside IEx (Interactive Elixir) as:​ 
 ```
-iex​​ ​​-S​​ ​​mix​​ ​​phx.server”
+iex​​ ​​-S​​ ​​mix​​ ​​phx.server
 ```
 
 
