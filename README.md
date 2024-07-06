@@ -21,11 +21,6 @@ To get started with Postgres config in `config/dev.exs`:
 mix​​ ​​ecto.create​
 ```
 
-To get started with Postgres config in `config/dev.exs`:
-```
-mix​​ ​​ecto.create​
-```
-
 Start your Phoenix app with:​
 ```
 ​​mix​​ ​​phx.server​
