@@ -1,4 +1,5 @@
 ARG EX_VERSION=latest
+ARG PHX_VERSION=1.8.3
 FROM elixir:${EX_VERSION}
 
 RUN apt-get update && \
