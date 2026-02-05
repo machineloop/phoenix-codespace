@@ -1,5 +1,8 @@
 ARG EX_VERSION=latest
+ARG PHX_VERSION=1.8.3
 FROM elixir:${EX_VERSION}
+
+ARG PHX_VERSION
 
 RUN apt-get update && \
     apt-get install -y postgresql-client && \
@@ -11,7 +14,7 @@ RUN apt-get update && \
     mix archive.install hex phx_new ${PHX_VERSION} --force && \
     mix local.rebar --force
 
-ENV APP_HOME /app
+ENV APP_HOME=/app
 RUN mkdir $APP_HOME
 WORKDIR $APP_HOME
 
